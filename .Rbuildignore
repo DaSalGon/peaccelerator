@@ -5,3 +5,6 @@
 ^cran-comments\.md$
 ^dev$
 ^data-raw$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
