@@ -35,16 +35,7 @@ You can install the development version of peaccelerator like so:
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-# devtools::install()
-library(peaccelerator)
-library(usethis)
-# install.packages("namespace")
-devtools::load_all() # It helps to load all functions during development
-usethis::use_r("structuring")
 
-use_git()
-use_github()
-## basic example code
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
