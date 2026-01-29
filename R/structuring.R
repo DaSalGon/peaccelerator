@@ -18,8 +18,9 @@ greet <- function(name, excited = FALSE) {
   msg
 }
 
+# devtools::document()
 
 # use_pipe # includes the pipe object into the package utils...
 # usethis::use_package("tibble") # to use the pipe operator
 # specify every package for every othr function from other packages that you use
-
+# use_data
