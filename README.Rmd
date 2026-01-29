@@ -38,7 +38,7 @@ This is a basic example which shows you how to solve a common problem:
 # devtools::install()
 library(peaccelerator)
 library(usethis)
-install.packages("namespace")
+# install.packages("namespace")
 devtools::load_all() # It helps to load all functions during development
 usethis::use_r("structuring")
 
